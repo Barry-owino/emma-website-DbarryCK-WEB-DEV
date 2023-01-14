@@ -43,3 +43,21 @@ body{
   background:#555;
   border-radius: 8px;
 }
+
+.toggle-button{
+  position:absolute;
+  top:1.5rem;
+  right:.95rem;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:30px;
+  height:21px;
+}
+
+.toggle-button .bar{
+  height:3px;
+  width:100%;
+  background:#fff;
+  border-radius: 8px;
+}
